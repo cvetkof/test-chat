@@ -1,0 +1,53 @@
+// compress: true
+
+html {
+	font-size: 15px;
+}
+
+body {
+	margin: 0 1px;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	color: #000;
+	height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+main {
+	// position: absolute;
+	// padding-top: 51px;
+	// padding-bottom: 101px;
+
+	// width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+
+	overflow: hidden;
+}
+
+
+/* blocks */
+@import "vars";
+@import "blocks/header";
+@import "blocks/container";
+@import "blocks/list";
+@import "blocks/chat";
+@import "blocks/footer";
